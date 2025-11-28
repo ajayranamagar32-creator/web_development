@@ -1,0 +1,55 @@
+    #head {
+        color: red;
+        text-align: center;
+    }
+
+    .par {
+        text-align: center;
+        color: black;
+    }
+
+    .head1 {
+        text-align: center;
+        font-size: 18px;
+        color: red;
+    }
+
+    .pict {
+        margin: auto;
+        border-radius: 50%;
+        height: 80px;
+        width: 90px;
+
+        display: block;
+    }
+
+    .life {
+        width: 60px;
+        height: 20px;
+        font-size: 13px;
+        color: white;
+        margin: auto;
+        display: flex;
+        width: 30%;
+        gap: 5px;
+
+    }
+
+    .lit {
+        display: flex;
+        width: 60px;
+        height: 20px;
+        font-size: 12px;
+        margin: auto;
+        width: 190px;
+        padding-top: 5px;
+        gap: 5px;
+
+
+    }
+
+    .button1 {
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+    }
