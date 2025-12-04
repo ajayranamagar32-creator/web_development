@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="text" id="deep">
+        <form>
+
+            <div class="buttons">
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn operator">/</button>
+
+                <button class="btn" type="" onclick="is()">4</button>
+                <button class="btn" type="" onclick="it()">5</button>
+                <button class="btn">6</button>
+                <button class="btn operator" type="" onclick="multiply()">*</button>
+
+                <button class="btn" type="" onclick="on()">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn operator">-</button>
+
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button class="btn clear">C</button>
+                <button class="btn operator">+</button>
+
+                <button class="btn equals" type="" onclick="equal()">=</button>
+            </div>
+
+            <br>
+            <br>
+
+            <label for="no1">Number One</label>
+            <input type="number" name="no1" id="no1" placeholder="enter first number"><br><br>
+
+            <label for="no2">Number two</label>
+            <input type="number" name="no2" id="no2" placeholder="enter second number">
+            <br><br>
+
+            <button type="button" onclick="add()">Add</button>
+
+            <button type="button" onclick="multiply()">Multiply</button><br>
+
+            <button type="button" onclick="substract()">Substract</button><br>
+
+            <button type="button" onclick="divide()">Divide</button>
+
+
+        </form>
+    </div>
+
+    <script>
+        //function
+
+
+
+        function add() {
+            let firstNumber = Number(document.getElementById('no1').value);
+
+            let secondNumber = Number(document.getElementById('no2').value);
+
+            console.log(firstNumber + secondNumber);
+        }
+
+        function multiply() {
+
+            let firstNumber = Number(document.getElementById('no1').value);
+
+            let secondNumber = Number(document.getElementById('no2').value);
+
+            console.log(firstNumber * secondNumber);
+
+        }
+
+        function substract() {
+            let firstNumber = Number(document.getElementById('no1').value);
+
+            let secondNumber = Number(document.getElementById('no2').value);
+
+            console.log(firstNumber - secondNumber);
+
+        }
+
+        function divide() {
+            let firstNumber = Number(document.getElementById('no1').value);
+
+            let secondNumber = Number(document.getElementById('no2').value);
+
+            console.log(firstNumber / secondNumber);
+        }
+
+    </script>
+
+</body>
+
+</html>
